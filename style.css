@@ -1,0 +1,20 @@
+h3 {
+    color: teal;
+    background-color:  white;
+}
+
+/*middle text*/
+.container {
+    margin-top: 35px;
+}
+
+/*navbar*/
+a:hover {
+    background-color: white;
+  }
+
+/*carousel images*/
+.w-100 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
