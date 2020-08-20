@@ -2,7 +2,15 @@ body {
     background-color: #1ECBE1;
     font-family: 'Londrina Solid', cursive;
     }
-    
+
+img {
+  display: inline-flex;
+  flex-wrap: wrap;
+  object-fit: scale-down;
+  justify-content: space-evenly;
+  margin: 25px;
+  padding: 10px;
+}
 .question {
     display: flex;
     flex-wrap: wrap;
