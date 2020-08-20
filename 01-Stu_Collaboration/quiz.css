@@ -1,0 +1,26 @@
+
+
+body {
+background-color: #1ECBE1;
+font-family: 'Londrina Solid', cursive;
+
+}
+
+.question {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px;
+  }
+
+  h2{
+      text-align: center;
+      background-color: white;
+      margin: 0px 350px;
+      font-family: 'Londrina Solid', cursive;
+
+  }
+
+  h1, p{
+    text-align: center;
+}
