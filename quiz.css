@@ -28,6 +28,7 @@ h1 {
 .result {
   display: flex;
   flex-wrap: wrap;
+  object-fit: scale-down;
   justify-content: space-evenly;
   margin: 25px;
   text-align: center;
@@ -65,7 +66,9 @@ margin: 0px;
   margin-bottom: 20px;
 }
 
-
+img {
+  object-fit: scale-down;
+}
 .restart button:hover {
   background-color: tomato;
   color: white;
