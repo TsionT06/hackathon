@@ -1,9 +1,15 @@
 body {
     background-color: #1ECBE1;
-    font-family: 'Londrina Solid', cursive;
+    background-image: url('https://cdn130.picsart.com/301286336042211.png?r240x240');
+    background-attachment: fixed;
     }
 
-img {
+h1 {
+      font-family: 'Londrina Solid', cursive;
+      color: rgb(221, 247, 109);
+      text-shadow: 3px 3px rgb(159, 170, 5);
+    }
+.answer-choice img {
   display: inline-flex;
   flex-wrap: wrap;
   object-fit: scale-down;
@@ -11,39 +17,102 @@ img {
   margin: 25px;
   padding: 10px;
 }
+
+.background-img {
+  object-fit: fill;
+}
+.spongebob-img img{
+  margin-top: -25%;
+ margin-left: 75%;
+}
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 25px;
+  text-align: center;
+}
+
 .question {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 25px;
-      }
-    
+    text-align: center;
+     }
+/*navbar*/
+a:hover {
+  background-color: white;
+}
+
+/*button design*/
+button {
+  border: none;
+}
+.answer-choice {
+text-align: center;
+margin: 0px;
+}
+
+.answer-choice button:hover {
+  background-color: rgb(221, 247, 109);
+  color: white;
+}
+
+
+.restart {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.restart button:hover {
+  background-color: tomato;
+  color: white;
+
+}
+
 h2{
-          text-align: center;
-          background-color: white;
-          margin: 0px 350px;
-          font-family: 'Londrina Solid', cursive;
-      }
+  text-align: center;
+  background-color: #0a91a3;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  }
     
 h1, p{
         text-align: center;
         margin: 25px;
     }
+    @media screen  and (min-width: 600px) {
+      button {
+        font-size: 20px;
+      }
+      h2 {
+        display: inline-flex;
+        margin: 25px;
+      }
+    }
 
-      @media screen  and (max-width: 900px) and (min-width: 0px) {
-        .answer-choice {
+    @media screen  and (max-width: 900px) and (min-width: 0px) {
+    .answer-choice {
             display: inline-flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
             margin: 25px;
             padding: 10px;
           }
-        .answer-choice img {
+    .answer-choice img {
             width: 160px;
             height: 150px;
         }
         h2 {
           display: inline-flex;
-          font-size: 30px;
+          font-size: 20px;
+          text-align: center;
+          margin: 10px;
+        }
+    .spongebob-img img{
+          margin-top: -15%;
+         margin-left: 55%;
         }
       }
